@@ -8,7 +8,53 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <style>
+        .table th {
+            font-weight: bold;
+            padding: 5px;
+            background: #efefef;
+            border: 1px solid #dddddd;
+        }
+        .table td{
+            padding: 5px 10px;
+            border: 1px solid #eee;
+            text-align: left;
+        }
+        .table{
+            border: 1px solid #eee;
+            table-layout: fixed;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        #pagination{
+            margin-top: 10px;
+        }
+        #pagination li{
+            margin-left: 10px;
+            display: inline-block;
+            border: 1px solid rgb(43, 38, 38);
+            padding:8px;
+            border-radius: 0.5em 0.5em 0.5em;
+
+        }
+        #pagination li:hover{
+            cursor: pointer;
+            color: rgb(3, 1, 1);
+            border: 3px solid red;
+            background-color: rgb(243, 107, 65);
+        }
+    </style>
+    <ul id ='pagination'>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
     <script src="main.js"></script>
 </body>
 </html>
